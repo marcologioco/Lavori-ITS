@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Express Frontend</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+   
+    <h1>Premi il bottone!</h1>
+
+    <button id="bottone">Mostra Messaggio</button>
+
+    <p id="messaggio" class="nascosto"></p>
+  </div>
+
+  <!-- Script JavaScript per gestire l'interazione -->
+  <script>
+    // Aggiunge un "ascoltatore" al click del bottone
+    document.getElementById('bottone').addEventListener('click', () => {
+
+      // Richiede il messaggio al server tramite fetch all'endpoint scritto
+      fetch('/api/messaggio')
+        .then(res => res.json()) // Converte la risposta in formato JSON
+        .then(data => {
+          // Inserisce il messaggio nel paragrafo e lo rende visibile
+          const msg = document.getElementById('messaggio');
+          msg.textContent = data.messaggio;
+          msg.classList.remove('nascosto');
+          msg.classList.add('mostrato');
+        })
+        .catch(() => {
+          // In caso di errore nella richiesta, mostra un messaggio di errore
+          document.getElementById('messaggio').textContent = 'Errore nel caricamento.';
+        });
+    });
+  </script>
+</body>
+</html>
