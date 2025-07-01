@@ -1,0 +1,38 @@
+
+    .hero {
+      height: 80vh;
+      background-image: url('header.avif');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .hero h1 {
+      position: relative;
+      z-index: 1;
+      color: white;
+    }
+    .newsletter {
+      background-image: url('newsletter.avif');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      position: relative;
+      color: white;
+    }
+    .newsletter::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .newsletter-content {
+      position: relative;
+      z-index: 1;
+    }
+ 
