@@ -1,99 +1,250 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Armonia Musicale - Strumenti musicali, corsi, eventi e assistenza professionale per musicisti di ogni livello.">
-  <title>Armonia Musicale</title>
+  <meta name="description"
+    content="Armonia Musicale - Strumenti musicali, corsi, eventi e assistenza professionale per musicisti di ogni livello.Trovi da noi chitarre, pianoforti, batterie, impianti audio e luci.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Armonia Musicale",
+  "description": "Armonia Musicale è il punto di riferimento per tutti gli appassionati di musica. Offre strumenti musicali, accessori, servizi personalizzati, eventi e corsi nel cuore della città.",
+  "image": "https://fad.its-ictpiemonte.it/pluginfile.php/55661/course/section/14925/header.jpg",
+  "url": "https://armoniamusicale.example.com",
+  "telephone": "+39 0123 456789",
+  "email": "info@armoniamusicale.it",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via della Musica, 123",
+    "addressLocality": "Centro Città",
+    "addressCountry": "IT"
+  },
+  "openingHours": "Mo-Sa 09:00-19:00",
+  "sameAs": [],
+  "department": [
+    {
+      "@type": "Store",
+      "name": "Chitarre e Bassi",
+      "description": "Vasta selezione di chitarre acustiche, elettriche e bassi delle migliori marche come Fender, Gibson, Ibanez e Yamaha."
+    },
+    {
+      "@type": "Store",
+      "name": "Tastiere e Pianoforti",
+      "description": "Tastiere e pianoforti acustici e digitali per ogni livello. Marchi: Yamaha, Roland, Casio, Kawai."
+    },
+    {
+      "@type": "Store",
+      "name": "Batterie e Percussioni",
+      "description": "Batterie acustiche ed elettroniche, percussioni etniche, accessori e consigli da esperti."
+    },
+    {
+      "@type": "Store",
+      "name": "Impianti Audio e Luci",
+      "description": "Mixer, casse, microfoni, luci da palco, macchine del fumo e controller DMX per eventi e studi."
+    }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Staff di musicisti esperti"
+  },
+  "foundingDate": "2004",
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Servizi Personalizzati",
+      "description": "Riparazioni, manutenzione e accordatura di strumenti musicali."
+    },
+    {
+      "@type": "Offer",
+      "name": "Eventi e Corsi",
+      "description": "Workshop, concerti e lezioni per imparare a suonare vari strumenti."
+    }
+  ],
+  "event": [
+    {
+      "@type": "Event",
+      "name": "Esame Finale",
+      "startDate": "2025-07-02T09:00:00+02:00",
+      "endDate": "2025-07-02T12:45:00+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "ITS ICT Piemonte",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Piemonte",
+          "addressCountry": "IT"
+        }
+      },
+      "description": "Creazione di una pagina HTML responsive a partire da una grafica fornita. L'esame verifica la conoscenza di tutti gli argomenti del corso, con valutazione basata su qualità del codice e partecipazione. Sufficienza: 18/30.",
+      "image": [
+        "https://fad.its-ictpiemonte.it/pluginfile.php/55661/course/section/14925/Versione%20Mobile.png",
+        "https://fad.its-ictpiemonte.it/pluginfile.php/55661/course/section/14925/versione%20desktop.png"
+      ]
+    }
+  ]
+}
+</script>
+  <title>Armonia Musicale,La musica come passione.Compra da noi una vastità di attrezzi musicali</title>
+  <meta name="author" content="Marco Lo gioco">
+  <meta property="og:title" content="Armonia Musicale | Strumenti, Corsi e Assistenza">
+<meta property="og:description" content="Il tuo negozio di strumenti musicali e passione per la musica. Scopri i nostri prodotti, corsi e servizi.">
+<meta property="og:image" content="https://armoniamusicale.example.com/og-image.jpg">
+<meta property="og:url" content="https://armoniamusicale.example.com">
+<meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <link rel="canonical" href="https://www.armoniamusicale.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="logo.avif" alt="Logo Armonia Musicale" width="50"></a>
+       <a class="navbar-brand" href="#">
+      <img src="./assets/logo.avif" alt="Logo Armonia Musicale" class="navbar-logo">
+    </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Chi siamo</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Servizi</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contatti</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="Home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="chi siamo">Chi siamo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="servizi">Servizi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="contatti">Contatti</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- HEADER HERO -->
-  <header class="hero d-flex justify-content-center align-items-center text-center">
-    <h1 class="display-3">Benvenuti in Armonia Musicale</h1>
+  <header id="header" class="hero d-flex justify-content-center align-items-center text-center position-relative">
+    <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+    <div class="z-1 text-white">
+      <h1 class="display-3">Armonia Musicale</h1>
+      <p class="lead">Il tuo negozio di strumenti musicali e passione per la musica</p>
+    </div>
   </header>
 
   <!-- SEZIONE INTRO -->
-  <section>
+  <section class="intro">
     <div class="container py-5">
       <div class="row">
-        <div class="col-12 text-center">
-          <h2>La musica è la nostra passione</h2>
-          <p>Da oltre 20 anni al servizio di chi ama suonare: strumenti, corsi ed eventi per ogni livello.</p>
+        <div class="col-12">
+          <h2>La musica è la <span class="text-red">n</span>ostra <span class="text-red">p</span>assione</h2>
+          <p>Armonia Musicale è il punto di riferimento per tutti gli appassionati di musica, dai principianti agli
+            esperti.
+            Situato nel cuore della città, il nostro negozio offre un'ampia selezione di strumenti musicali e accessori
+            pensati per soddisfare ogni esigenza.
+            Da più di 20 anni, ci impegniamo a fornire ai nostri clienti prodotti di qualità delle migliori marche, un
+            servizio clienti attento e una consulenza personalizzata.
+            La nostra missione è aiutarti a trovare lo strumento perfetto per esprimere la tua passione musicale.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SEZIONE CARD PRODOTTI -->
-  <section>
+  <section id="prodotti" class="prodotti">
     <div class="container py-5">
-      <h2 class="text-center mb-4">I nostri strumenti</h2>
+      <h2 class="mb-4"><span class="text-red">P</span>rodotti in <span class="text-red">e</span>videnza</h2>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card">
-            <picture>
-              <source srcset="chitarra.avif" type="image/avif">
-              <img src="chitarra.jpg" class="card-img-top" alt="Chitarre e bassi">
-            </picture>
-            <div class="card-body text-center">
-              <h5 class="card-title">Chitarre e Bassi</h5>
+            <figure>
+              <picture>
+                <source srcset="./assets/chitarre.avif" type="image/avif">
+                <img class="img-fluid" src="./assets/chitarre.jpg" alt="chitarre e bassi">
+              </picture>
+              <figcaption class="card-body">
+                <h3>
+                  Chitarre in offerta
+                </h3>
+                <p>Scopri la nostra vasta selezione di chitarre e bassi, pensata per soddisfare musicisti di ogni
+                  livello e stile. Dalle classiche chitarre acustiche alle potenti elettriche,
+                  fino ai bassi più versatili,troverai strumenti delle migliori marche come Fender, Gibson, Ibanez e
+                  Yamaha.
+                </p>
+              </figcaption>
+            </figure>
+            <div class="card-body d-flex justify-content-center justify-content-lg-end">
               <a href="#" class="btn btn-primary">Scopri di più</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card">
-            <picture>
-              <source srcset="tastiera.avif" type="image/avif">
-              <img src="tastiera.jpg" class="card-img-top" alt="Tastiere e pianoforti">
-            </picture>
-            <div class="card-body text-center">
-              <h5 class="card-title">Tastiere e Pianoforti</h5>
+            <figure>
+              <picture>
+                <source srcset="./assets/batterie.avif" type="image/avif">
+                <img class="img-fluid" src="./assets/batterie.jpg" alt="batterie e percussioni">
+              </picture>
+              <figcaption class="card-body">
+                <h3>
+                  Batterie in offerta
+                </h3>
+                <p>
+                  Dai ritmo alla tua musica con la nostra ampia gamma di batterie e percussioni! Troverai set completi
+                  di batterie acustiche ed elettroniche,
+                  perfetti per ogni genere musicale, dai classici ritmi jazz alle sonorità energiche del rock.
+                </p>
+              </figcaption>
+            </figure>
+            <div class="card-body d-flex justify-content-center justify-content-lg-end">
               <a href="#" class="btn btn-primary">Scopri di più</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card">
-            <picture>
-              <source srcset="batteria.avif" type="image/avif">
-              <img src="batteria.jpg" class="card-img-top" alt="Batterie e percussioni">
-            </picture>
-            <div class="card-body text-center">
-              <h5 class="card-title">Batterie e Percussioni</h5>
+            <figure>
+              <picture>
+                <source srcset="./assets/piano.avif" type="image/avif">
+                <img class="img-fluid" src="./assets/piano.jpg" alt="pianoforti e tastiere">
+              </picture>
+              <figcaption class="card-body">
+                <h3>
+                  Pianoforti e tastiere
+                </h3>
+                <p>Entra nel mondo delle tastiere e dei pianoforti, dove la tradizione incontra l'innovazione. Dal suono
+                  autentico di un pianoforte acustico alla versatilità di una tastiera digitale,
+                  troverai lo strumento perfetto per ogni esigenza musicale.
+                </p>
+              </figcaption>
+            </figure>
+            <div class="card-body d-flex justify-content-center justify-content-lg-end">
               <a href="#" class="btn btn-primary">Scopri di più</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card">
-            <picture>
-              <source srcset="audio.avif" type="image/avif">
-              <img src="audio.jpg" class="card-img-top" alt="Impianti audio e luci">
-            </picture>
-            <div class="card-body text-center">
-              <h5 class="card-title">Audio e Luci</h5>
+            <figure>
+              <picture>
+                <source srcset="./assets/audio-luci.avif" type="image/avif">
+                <img class="img-fluid" src="./assets/audio-luci.jpg" alt="audio e luci">
+              </picture>
+              <figcaption class="card-body">
+                <h3>
+                  impianto audio e luci
+                </h3>
+                <p>
+                  Porta la tua musica a un livello superiore con i nostri impianti audio e luci professionali. Perfetti
+                  per concerti, eventi, DJ set o semplicemente per il tuo studio, offriamo una vasta gamma di prodotti
+                  per garantire la massima qualità del suono e un'illuminazione spettacolare.
+                </p>
+              </figcaption>
+            </figure>
+            <div class="card-body d-flex justify-content-center justify-content-lg-end">
               <a href="#" class="btn btn-primary">Scopri di più</a>
             </div>
           </div>
@@ -101,67 +252,93 @@
       </div>
     </div>
   </section>
+
 
   <!-- SEZIONE NEWSLETTER -->
-  <section class="newsletter d-flex align-items-center justify-content-center">
-    <div class="newsletter-content text-center">
-      <h2>Iscriviti alla nostra newsletter</h2>
-      <button class="btn btn-light mt-3">Iscriviti ora</button>
+  <section class="newsletter d-flex justify-content-center align-items-center text-center position-relative mb-5">
+    <div class="newsletter-bg position-absolute top-0 start-0 w-100 h-100 pb-5"></div>
+
+    <div class="z-1 text-dark bg-white bg-opacity-75 p-5 rounded">
+      <h2 class="mb-3">Iscriviti alla nostra Newsletter</h2>
+      <button class="btn btn-primary">Iscriviti</button>
     </div>
   </section>
 
+
   <!-- SEZIONE TESTO E IMMAGINE -->
-  <section>
-    <div class="container py-5">
+  <section id="servizi">
+    <div class="container bg-light">
       <div class="row align-items-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6 p-0">
           <picture>
-            <source srcset="laboratorio.avif" type="image/avif">
-            <img src="laboratorio.jpg" class="img-fluid" alt="Laboratorio strumenti">
+            <source srcset="./assets/ampli.webp" type="image/webp">
+            <img class="img-fluid" src="./assets/ampli.jpg" alt="amplificatori">
           </picture>
         </div>
-        <div class="col-lg-6">
-          <h3>Servizi personalizzati</h3>
-          <p>Offriamo riparazioni, manutenzione e accordatura per garantire strumenti sempre al top.</p>
+        <div class="col-lg-6 p-0">
+          <h3 class="pt-4 px-4">Perché scegliere Armonia Musicale?</h3>
+          <p class="pt-4 px-4">Troverai mixer audio, casse amplificate, microfoni wireless, sistemi PA e tutto ciò che
+            serve per un'ottima resa sonora. Per creare l’atmosfera giusta,
+            esplora la nostra selezione di luci da palco, fari LED, macchine del fumo e controller DMX.Unisciti a noi
+            per vivere esperienze musicali indimenticabili!</p>
+          <div class="px-4 pb-4">
+            <a href="#" class="btn border border-primary text-primary">Scopri di più</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section>
-    <div class="container py-5">
+    <div class="container bg-light">
       <div class="row align-items-center flex-lg-row-reverse">
-        <div class="col-lg-6">
+        <div class="col-lg-6 p-0">
           <picture>
-            <source srcset="evento.avif" type="image/avif">
-            <img src="evento.jpg" class="img-fluid" alt="Eventi musicali dal vivo">
+            <source srcset="./assets/mixer.webp" type="image/webp">
+            <img class="img-fluid" src="./assets/mixer.jpg" alt="mixer">
           </picture>
         </div>
-        <div class="col-lg-6">
-          <h3>Eventi e corsi</h3>
-          <p>Workshop, lezioni e concerti per tutti: vivi la musica insieme a noi!</p>
+        <div class="col-lg-6 p-0">
+          <h3 class="pt-4 px-4">Servizi personalizzati
+          </h3>
+          <p class="pt-4 px-4">Da noi, la cura degli strumenti è una priorità. Offriamo una gamma completa di servizi
+            personalizzati per
+            garantire che il tuo strumento sia sempre nelle migliori condizioni. Ci occupiamo di
+            riparazioni,manutenzione e accordatura.Affidati a noi per mantenere il tuo strumento sempre al massimo delle
+            sue potenzialità!</p>
+          <div class="px-4 pb-4">
+            <a href="#" class="btn border border-primary text-primary">Scopri di più</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section>
-    <div class="container py-5">
+    <div class="container bg-light">
       <div class="row align-items-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6 p-0 ">
           <picture>
-            <source srcset="staff.avif" type="image/avif">
-            <img src="staff.jpg" class="img-fluid" alt="Staff esperto di Armonia Musicale">
+            <source srcset="./assets/mic.webp" type="image/webp">
+            <img class="img-fluid" src="./assets/mic.jpg" alt="microfoni">
           </picture>
         </div>
-        <div class="col-lg-6">
-          <h3>Esperienza e competenza</h3>
-          <p>Uno staff composto da musicisti esperti pronti a guidarti nella scelta giusta.</p>
+        <div class="col-lg-6 p-0">
+          <h3 class="pt-4 px-4">Esperienza e competenza</h3>
+          <p class="pt-4 px-4">Il nostro staff è composto da musicisti esperti che condividono una passione autentica
+            per la
+            musica. Grazie alla loro esperienza pluriennale, sono in grado di guidarti nella scelta dello strumento più
+            adatto alle tue esigenze, offrendoti consigli tecnici e pratici. il nostro team saprà ascoltarti e proporti
+            soluzioni personalizzate.
+          </p>
+          <div class="px-4 pb-4">
+            <a href="#" class="btn border border-primary text-primary">Scopri di più</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-dark text-light py-4">
+  <footer class="bg-dark text-light py-4 mt-custom">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -171,9 +348,9 @@
         <div class="col-lg-4">
           <h5>Link utili</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-light text-decoration-none">Home</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Servizi</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Eventi</a></li>
+            <li><a href="#header" class="text-light text-decoration-none" title="hero">header</a></li>
+            <li><a href="#prodotti" class="text-light text-decoration-none" title="prodotti in evidenza">Prodotti</a></li>
+            <li><a href="#servizi" class="text-light text-decoration-none" title="i servizi offerti">servizi</a></li>
           </ul>
         </div>
         <div class="col-lg-4">
@@ -185,4 +362,5 @@
   </footer>
 
 </body>
+
 </html>
